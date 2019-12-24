@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Automatic Teller Machine App</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <main>
+            <div id="atm-box">
+                <div id="atm-head">
+                    <img src="WestBank.png">
+                    <h1>WestBank Terminal</h1>
+                    <span id="display">Welcome to WestBank ATM Terminal Alpha</span>
+                </div>
+                <div id="atm-menu">
+                        <ul>
+                            <li onclick="summary()">Login/Account Summary</li>
+                            <li onclick="deposit()">Deposit</li>
+                            <li onclick="withdraw()">Withdraw</li>
+                            <li onclick="transfer()">Transfer</li>
+                            <li onclick="createNewAccount()">Open a New Account</li>
+                            <li onclick="logOutDialog()">Log Out</li>
+                        </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            Copyright &copy; CMJones Labs 2018 
+        </footer>
+    </body>
+</html>

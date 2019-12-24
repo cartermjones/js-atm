@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+#atm-box {
+    border: 1px solid black;
+    padding: 10px;
+    background-color:blue;
+}
+
+#atm-head {
+    padding: 40px;
+    margin: 10px;
+    background-color: blue;
+}
+
+#display {
+    color: white;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+li {
+    border: 1px solid white;
+    padding: 5px;
+    width: 25%;
+    color: white;
+    list-style: none;
+    font-family: monospace;
+}
+
+li:hover {
+    cursor: pointer;
+    color: blue;
+    background-color: white;
+    transform: translate(15px);
+    transition-duration: .5s;
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+img {
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#database {
+    display: none;
+}
