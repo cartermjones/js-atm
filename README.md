@@ -7,6 +7,8 @@ Users can log in, create an account, withdraw, deposit, and transfer "money."
 
 The design is minimalistic, as are the functions.
 
-It was fun to build, though, and it could serve as a starting point to build something more robust and useful. 
+It was fun to build, though, and it could serve as a starting point to build something more robust and useful.
+
+![Screenshot](/atm-screenshot.png)
 
 
